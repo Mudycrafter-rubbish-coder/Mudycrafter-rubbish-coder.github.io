@@ -1,6 +1,6 @@
-# Luau Systems Lab
+# Luau Systems Developer
 
-Portable, tested Luau building blocks for Roblox gameplay systems:
+Technical resume and tested Luau building blocks for Roblox gameplay systems:
 
 - pathfinding and flow fields
 - game AI architecture

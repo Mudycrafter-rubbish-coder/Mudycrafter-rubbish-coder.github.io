@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$toolsRoot = Join-Path $env:TEMP "luau-systems-lab-tools"
+$toolsRoot = Join-Path $env:TEMP "luau-portfolio-tools"
 $luauRoot = Join-Path $toolsRoot "luau-0.744"
 $luneRoot = Join-Path $toolsRoot "lune-0.11.1"
 

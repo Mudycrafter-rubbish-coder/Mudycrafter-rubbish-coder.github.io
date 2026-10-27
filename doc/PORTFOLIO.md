@@ -40,7 +40,7 @@ My focus is not one-off visual scripting. I turn gameplay requirements into modu
 - room-and-corridor generation
 - pity-aware weighted loot
 
-## Featured build: Luau Systems Lab
+## Featured build: Luau Systems Developer
 
 A portable Luau repository with 47 passing runtime assertions and clean static analysis.
 

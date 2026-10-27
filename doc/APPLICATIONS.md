@@ -4,7 +4,7 @@ These are drafts for Roblox development hiring channels. Read each server's pinn
 
 ## Short introduction
 
-> Hi, I'm a Luau systems developer focused on gameplay architecture, pathfinding, and server-authoritative mechanics. I have a tested Luau systems portfolio covering A*, Dijkstra, BFS/DFS, Theta*, FSM, behavior trees, GOAP, spatial hashing, movement validation, prediction reconciliation, and procedural generation.  
+> Hi, I'm a Luau systems developer focused on gameplay architecture, pathfinding, and server-authoritative mechanics. I have a tested Luau technical resume covering A*, Dijkstra, BFS/DFS, Theta*, FSM, behavior trees, GOAP, spatial hashing, movement validation, prediction reconciliation, and procedural generation.  
 > Code and test evidence: `{{PORTFOLIO_URL}}`  
 > Available for scoped paid work. I can start with a small milestone so the fit is easy to verify.
 
