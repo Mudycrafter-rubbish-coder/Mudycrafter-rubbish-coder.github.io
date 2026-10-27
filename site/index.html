@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Luau gameplay systems, pathfinding, game AI, spatial queries, and server-authoritative mechanics.">
+  <title>Luau Systems Lab | Gameplay Engineering Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Luau Systems Lab home">
+      <span class="brand-mark" aria-hidden="true">LSL</span>
+      <span>Luau Systems Lab</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#evidence">Evidence</a>
+      <a class="nav-cta" href="#contact">Hire me</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span>Available for scoped contract work</p>
+        <h1>Gameplay systems that hold up under pressure.</h1>
+        <p class="hero-lede">
+          Luau systems development for pathfinding, game AI, spatial queries,
+          server-authoritative movement, and procedural worlds.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">See the systems</a>
+          <a class="button button-secondary" href="#contact">Start a project</a>
+        </div>
+        <ul class="hero-proof" aria-label="Verified results">
+          <li><strong>47</strong><span>passing assertions</span></li>
+          <li><strong>0</strong><span>static analysis errors</span></li>
+          <li><strong>35</strong><span>tested algorithm implementations</span></li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-label="Animated A star pathfinding demonstration">
+        <div class="visual-topline">
+          <span>PATH / A*</span>
+          <span class="visual-live">LIVE DEMO</span>
+        </div>
+        <canvas id="path-canvas" width="720" height="520"></canvas>
+        <div class="visual-caption">
+          <span>Dynamic obstacle grid</span>
+          <span class="mono">A* + octile heuristic</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-heading">
+        <p class="eyebrow">Featured systems</p>
+        <h2>Small modules. Clear boundaries. Testable behavior.</h2>
+        <p>
+          The portfolio is a connected systems lab, not a set of disconnected snippets.
+          Every demo separates policy from adapters so Roblox integration stays explicit.
+        </p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-wide">
+          <div class="card-index">01</div>
+          <div>
+            <p class="card-kicker">Navigation</p>
+            <h3>Pathfinding and flow fields</h3>
+            <p>
+              Individual routes with A*, Dijkstra, BFS, DFS, greedy search, and Theta*.
+              Shared goals use a BFS flow field. Paths are validated against blocked cells
+              and can be smoothed without crossing corners.
+            </p>
+            <ul class="tag-list">
+              <li>A*</li><li>Dijkstra</li><li>Theta*</li><li>Flow field</li><li>Smoothing</li>
+            </ul>
+          </div>
+          <div class="card-signal" aria-hidden="true">
+            <span>128×128</span>
+            <small>benchmark grid</small>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-index">02</div>
+          <p class="card-kicker">Decision-making</p>
+          <h3>AI architecture</h3>
+          <p>
+            Guarded state transitions, blackboard data flow, behavior trees,
+            utility scoring, and goal-oriented planning.
+          </p>
+          <ul class="tag-list">
+            <li>FSM</li><li>Behavior tree</li><li>GOAP</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-index">03</div>
+          <p class="card-kicker">Spatial reasoning</p>
+          <h3>Broad phase and casts</h3>
+          <p>
+            Spatial hash and quadtree queries feed narrow-phase checks.
+            Segment and swept-AABB casts reuse one predictable geometry layer.
+          </p>
+          <ul class="tag-list">
+            <li>Spatial hash</li><li>Quadtree</li><li>Swept AABB</li>
+          </ul>
+        </article>
+
+        <article class="project-card project-accent">
+          <div class="card-index">04</div>
+          <p class="card-kicker">Server authority</p>
+          <h3>Movement that can be defended</h3>
+          <p>
+            Sequence-numbered inputs, speed-over-time validation, prediction replay,
+            and token-bucket limits establish a server-first network boundary.
+          </p>
+          <ul class="tag-list">
+            <li>Validation</li><li>Reconciliation</li><li>Rate limit</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="card-index">05</div>
+          <p class="card-kicker">World generation</p>
+          <h3>Seeded, repeatable worlds</h3>
+          <p>
+            Deterministic PRNG, Perlin/fBm, cellular caves, room-and-corridor maps,
+            and pity-aware loot generation.
+          </p>
+          <ul class="tag-list">
+            <li>Perlin</li><li>Cellular</li><li>Rooms</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section capability-section" id="capabilities">
+      <div class="section-heading compact">
+        <p class="eyebrow">Capability map</p>
+        <h2>Depth where it matters. Honest limits everywhere else.</h2>
+      </div>
+      <div class="capability-grid">
+        <article>
+          <span class="cap-number">A</span>
+          <h3>Implemented and tested</h3>
+          <p>Pathfinding, AI composition, spatial queries, movement validation, prediction reconciliation, deterministic random, and procedural generation.</p>
+        </article>
+        <article>
+          <span class="cap-number">B</span>
+          <h3>Ready for scoped implementation</h3>
+          <p>JPS, HPA*, minimax, MCTS, Q-learning, HTN, perception systems, BVH/octree, WFC, and matching or optimization algorithms.</p>
+        </article>
+        <article>
+          <span class="cap-number">C</span>
+          <h3>Engine-assisted integration</h3>
+          <p>Roblox casting APIs, quaternion animation, inverse kinematics, LOD, culling, and replicated gameplay adapters.</p>
+        </article>
+        <article>
+          <span class="cap-number">D</span>
+          <h3>Prototype before claiming</h3>
+          <p>Production 3D GJK/EPA, MMO interest management, rollback netcode, fluid simulation, and large-scale anomaly detection.</p>
+        </article>
+      </div>
+      <a class="text-link" href="https://github.com/Mudycrafter-rubbish-coder/luau-systems-lab/blob/main/doc/ALGORITHM_MAP.md">Read the detailed capability map <span>→</span></a>
+    </section>
+
+    <section class="section evidence-section" id="evidence">
+      <div class="evidence-copy">
+        <p class="eyebrow">Verification</p>
+        <h2>Show the result. Then show how it was checked.</h2>
+        <p>
+          The demo repository includes deterministic runtime assertions and a reproducible
+          benchmark. Static analysis runs against the same source before the tests.
+        </p>
+        <p class="fine-print">
+          Workstation benchmark from Lune. It is not presented as a Roblox server guarantee.
+        </p>
+      </div>
+      <div class="evidence-panel">
+        <div class="evidence-row">
+          <span>Runtime assertions</span><strong>47 / 47</strong>
+        </div>
+        <div class="evidence-row">
+          <span>Luau analyzer</span><strong>Clean</strong>
+        </div>
+        <div class="evidence-row">
+          <span>A* benchmark</span><strong>~0.22 s</strong>
+        </div>
+        <div class="evidence-row">
+          <span>Search runs</span><strong>100</strong>
+        </div>
+        <div class="evidence-row">
+          <span>Nodes expanded</span><strong>57,500</strong>
+        </div>
+        <div class="terminal">
+          <span class="terminal-prompt">PS&gt;</span>
+          <span>.\scripts\test.ps1</span>
+          <span class="terminal-success">PASS 47 assertions</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="section-heading compact">
+        <p class="eyebrow">Working model</p>
+        <h2>A first milestone should remove uncertainty.</h2>
+      </div>
+      <ol class="process-list">
+        <li><span>01</span><div><h3>Define behavior</h3><p>Player-visible outcome, failure cases, and platform constraints.</p></div></li>
+        <li><span>02</span><div><h3>Scope the seam</h3><p>Server/client boundaries, integration points, and acceptance tests.</p></div></li>
+        <li><span>03</span><div><h3>Build and verify</h3><p>A focused module in the existing codebase, with reviewable evidence.</p></div></li>
+        <li><span>04</span><div><h3>Hand off cleanly</h3><p>Usage notes, limitations, and the next sensible milestone.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="eyebrow">Available for contract work</p>
+      <h2>Have a gameplay problem with clear edges?</h2>
+      <p>
+        Send the core mechanic, current codebase context, deadline, and the platform target.
+        A short paid milestone is the fastest way to check fit.
+      </p>
+      <div class="contact-actions">
+        <a class="button button-primary" href="https://github.com/Mudycrafter-rubbish-coder/luau-systems-lab">View the code</a>
+        <a class="button button-secondary" href="#top">Back to top</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Luau Systems Lab</span>
+    <span>Gameplay engineering portfolio · 2026</span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
